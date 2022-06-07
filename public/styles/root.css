@@ -1,0 +1,32 @@
+:root {
+  --bg-color: #282a36;
+  --text-color: #f8f8f2;
+  --purple: #bd93f9;
+  --pink: #ff79c6;
+  --bg-input-color: #44475a;
+  --green: #50fa7b;
+  --cyan: #8be9fd;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 100vh;
+
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
