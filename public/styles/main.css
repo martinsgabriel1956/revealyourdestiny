@@ -1,10 +1,8 @@
 main {
-  margin: 0 auto; 
-
-  width: 460px;
-
+  margin: 0 auto;
+  width: 80%; 
+  max-width: 460px;
   text-align: center;
-
 }
 
 .info-container {
@@ -12,6 +10,8 @@ main {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+
+  margin-top: 6.25rem;
 }
 
 .info-container img {
@@ -20,45 +20,46 @@ main {
 
 .info-container h1 {
   font-size: 2.5rem;
-  margin-bottom: .5rem;
-
+  margin-bottom: .625rem;
+  opacity: 0.9;
+  
   color: var(--purple);
 }
 
 .info-container p {
   font-size: 1.25rem;
   margin-bottom: 2.5rem;
+  opacity: 0.7;
 }
 
 form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: block;
+  width: 100%;
 }
 
 form input {
   margin-bottom: 1.25rem;
   background-color: var(--bg-input-color);
-  font-size: 1.05rem;
 }
 
 form button {
   background: var(--pink);
   font-weight: 500;
-  font-size: 1.25rem;
-  transition: background .2s ease-in-out;
+  transition: all .2s ease-in-out;
 }
 
 form button:hover {
   background: var(--green);
+  filter: brightness(1.2);
 }
 
 form input,
 form button {
   width: 100%;
-  padding: 1.5rem;
+  padding: 1.25rem;
   border-radius: .25rem;
   border: 0;
+  font-size: 1.25rem;
 }
 
 form input,
