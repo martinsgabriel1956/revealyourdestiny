@@ -67,3 +67,16 @@ form input::placeholder,
 form button {
   color: var(--text-color);
 }
+
+#answerContainer {
+ margin-top: 1.875rem;
+
+ transition: opacity 1s;
+}
+
+#answerContainer h3:nth-child(1) {
+  font-size: 1rem;
+  font-weight: normal;
+  opacity: 0.9;
+  margin-bottom: 0.625rem;
+}
